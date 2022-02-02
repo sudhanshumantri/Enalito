@@ -1,0 +1,1058 @@
+/*! CSS Used from: https://static.carworkz.com/front/mincss/styles.min.css?v=61 */
+footer,
+header,
+nav {
+    display: block;
+}
+a {
+    background-color: transparent;
+}
+a:active,
+a:hover {
+    outline: 0;
+}
+img {
+    border: 0;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:after,
+:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+a:focus,
+a:hover {
+    color: #23527c;
+    text-decoration: underline;
+}
+a:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+img {
+    vertical-align: middle;
+}
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.container:after,
+.container:before {
+    content: ' ';
+    display: table;
+}
+.container:after {
+    clear: both;
+}
+@media (min-width: 768px) {
+    .container {
+        width: 740px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 960px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1160px;
+    }
+}
+.clearfix:after,
+.clearfix:before {
+    content: ' ';
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.pull-right {
+    float: right !important;
+}
+.pull-left {
+    float: left !important;
+}
+.header_wrapper {
+    background-color: #0E2C4B;
+    width: 100%;
+    /* position: fixed; */
+    min-height: 48px;
+    top: 0;
+    z-index: 99;
+    -webkit-box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.17);
+    -moz-box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.17);
+    box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.17);
+    padding: 12px;
+}
+.header_wrapper .hme_log {
+    float: left;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.header_wrapper nav.top_nav {
+    text-align: right;
+    margin-top: 11px;
+}
+.header_wrapper nav ul li {
+    display: inline-block;
+    margin-right: 25px;
+}
+.header_wrapper nav ul li:last-child {
+    margin-right: 0;
+}
+.header_wrapper nav ul li a {
+    color: black;
+    font-size: 0.92857143em;
+    display: block;
+    font-family: proximanova-regular;
+}
+.header_wrapper nav ul li a span {
+    vertical-align: middle;
+}
+.header_wrapper nav ul li a span.txt {
+    margin-left: 5px;
+}
+.header_wrapper .menu {
+    margin-top: 7px;
+    float: right;
+}
+.header_wrapper .menu ul.dropdown_links li a {
+    line-height: 26px;
+}
+.usr_login_btn .txt {
+    width: 85px;
+    display: inline-block;
+    text-align: left;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-right: 0 !important;
+}
+@media (max-width: 768px) {
+    .header_wrapper .menu {
+        margin-top: 13px;
+    }
+}
+.sprite-icons-app_plus,
+.sprite-icons-close,
+.sprite-icons-contact2,
+.sprite-icons-fb_icon,
+.sprite-icons-gp_icon,
+.sprite-icons-how_work,
+.sprite-icons-icon_watsapp,
+.sprite-icons-play_store,
+.sprite-icons-tw_icon,
+.sprite-icons-user1 {
+    background-image: url(https://static.carworkz.com/front/images/sprite-icons-sd6fc36ae2a.png);
+    background-repeat: no-repeat;
+}
+.sprite-icons-app_plus {
+    background-position: -112px -101px;
+    height: 20px;
+    width: 16px;
+}
+.sprite-icons-close {
+    background-position: -90px -16px;
+    height: 11px;
+    width: 12px;
+}
+.sprite-icons-contact2 {
+    background-position: -158px 0;
+    height: 13px;
+    width: 13px;
+}
+.sprite-icons-fb_icon {
+    background-position: -8px 0;
+    height: 12px;
+    width: 7px;
+}
+.sprite-icons-gp_icon {
+    background-position: -157px -16px;
+    height: 12px;
+    width: 12px;
+}
+.sprite-icons-how_work {
+    background-position: -171px 0;
+    height: 13px;
+    width: 13px;
+}
+.sprite-icons-icon_watsapp {
+    background-position: -15px -67px;
+    height: 16px;
+    width: 16px;
+}
+.sprite-icons-play_store {
+    background-position: -139px -159px;
+    height: 20px;
+    width: 18px;
+}
+.sprite-icons-tw_icon {
+    background-position: -54px -16px;
+    height: 10px;
+    width: 13px;
+}
+.sprite-icons-user1 {
+    background-position: -197px 0;
+    height: 13px;
+    width: 13px;
+}
+span[class^='sprite-icons'] {
+    display: inline-block;
+}
+a:active,
+a:focus,
+a:hover {
+    outline: 0;
+    text-decoration: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+:focus {
+    outline: 0;
+}
+ul.dropdown_links {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 10px;
+}
+ul.dropdown_links > .dropdown-item {
+    margin-right: 30px;
+    position: relative;
+}
+ul.dropdown_links > .dropdown-item > a {
+    line-height: 20px;
+}
+ul.dropdown_links > .dropdown-item > a > span {
+    vertical-align: middle;
+    margin-right: 2px;
+}
+ul.dropdown_links > .dropdown-item:after {
+    content: '';
+    position: absolute;
+    right: -14px;
+    top: 50%;
+    margin-top: -1px;
+    width: 0;
+    height: 0;
+}
+ul.dropdown_links li {
+    transition: all 0.2s ease;
+    display: block;
+    float: left;
+    position: relative;
+}
+ul.dropdown_links li a {
+    font-size: 0.85714286em;
+    color: #666;
+    display: block;
+}
+ul.dropdown_links li a:hover {
+    text-decoration: none;
+}
+ul.dropdown_links li:hover {
+    cursor: pointer;
+}
+ul.dropdown_links > .dropdown-item {
+    margin-right: 15px;
+}
+/*! CSS Used from: https://static.carworkz.com/front/mincss/home.min.css?v=61 */
+.header_wrapper nav ul li {
+    margin-right: 70px;
+}
+.header_wrapper nav ul li:last-child {
+    margin-right: 0;
+}
+/*! CSS Used from: https://static.carworkz.com/front/mincss/responsive.min.css?v=61 */
+.top_menu_fix {
+    display: none;
+}
+@media (max-width: 1024px) {
+    .header_wrapper nav.top_nav {
+        margin-top: 0;
+    }
+    .header_wrapper nav.top_nav ul {
+        text-align: center;
+    }
+    .header_wrapper nav.top_nav ul li {
+        border-left: 1px solid #e8e8e8;
+        margin-right: inherit;
+        display: inline-block;
+        float: left;
+        width: 33.33%;
+    }
+    .header_wrapper nav.top_nav ul li a {
+        padding: 14px 0;
+        font-size: 0.78571429em;
+        height: 42px;
+    }
+    .header_wrapper nav.top_nav ul li a span {
+        display: block;
+        margin: 0 auto 5px;
+    }
+    .header_wrapper nav.top_nav ul li a span.txt {
+        display: none;
+    }
+    .header_wrapper nav.top_nav > ul.dropdown_links li {
+        width: 65px;
+    }
+    .header_wrapper .container .menu ul.dropdown_links > .dropdown-item {
+        margin-right: 0;
+    }
+    .header_wrapper .container .menu ul.dropdown_links > .dropdown-item:last-child {
+        margin-right: 0;
+    }
+}
+@media (max-width: 992px) {
+    .header_wrapper .container {
+        width: 100%;
+        padding: 0;
+    }
+    .header_wrapper .container .menu {
+        display: table;
+        height: 36px;
+        margin-top: 5px;
+        margin-right: 10px;
+        float: right;
+    }
+    .header_wrapper .container .menu .dropdown_links {
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .header_wrapper .container .menu ul.dropdown_links > .dropdown-item {
+        margin-right: 0;
+    }
+    .header_wrapper .container .menu ul.dropdown_links > .dropdown-item:last-child {
+        margin-right: 0;
+    }
+    .header_wrapper .container .menu ul.dropdown_links > .dropdown-item > a span {
+        display: none;
+    }
+    .header_wrapper
+        .container
+        .menu
+        ul.dropdown_links
+        > .dropdown-item
+        > a
+        span[class^='sprite-icons'] {
+        display: block;
+    }
+}
+@media (max-width: 768px) {
+    .header_wrapper {
+        padding: 0;
+        height: 43px;
+    }
+    .header_wrapper.home_wrapper {
+        margin-top: 0;
+        height: 0;
+    }
+    .header_wrapper a.icon_toggle {
+        position: absolute;
+        left: 16px;
+        top: 10px;
+        width: 18px;
+        height: 12px;
+        z-index: 2;
+    }
+    .header_wrapper a.icon_toggle span {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        height: 2px;
+        background-color: #212121;
+        top: -7px;
+    }
+    .header_wrapper a.icon_toggle span:after,
+    .header_wrapper a.icon_toggle span:before {
+        content: '';
+        width: 100%;
+        height: 2px;
+        background-color: #212121;
+        display: inline-block;
+        position: absolute;
+    }
+    .header_wrapper a.icon_toggle span:before {
+        top: 5px;
+    }
+    .header_wrapper a.icon_toggle span:after {
+        top: 10px;
+    }
+    .header_wrapper span a img {
+        width: 108px;
+    }
+    .overlay_menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 99;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        display: none;
+    }
+    .overlay_menu .top_menu_fix {
+        position: fixed;
+        left: -321px;
+        width: 290px;
+        height: 100%;
+        z-index: 9999;
+        display: block;
+        background-color: #000;
+    }
+    .overlay_menu .top_menu_fix span.sprite-icons-close {
+        position: absolute;
+        top: 10px;
+        right: -26px;
+        color: #fff;
+        font-size: 30px;
+        font-family: proximanova-regular;
+        font-weight: lighter;
+    }
+    .overlay_menu .top_menu_fix .menu_head {
+        border-top: 1px solid #d7d7d7;
+        border-bottom: 1px solid #d7d7d7;
+        background-color: #ddd;
+        padding: 15px;
+    }
+    .overlay_menu .top_menu_fix .menu_body {
+        background-color: #efefef;
+        height: 79%;
+        overflow: scroll;
+    }
+    .overlay_menu .top_menu_fix .menu_body ul.list_row_one {
+        padding: 0 20px;
+    }
+    .overlay_menu .top_menu_fix .menu_body ul.list_row_one li {
+        border-bottom: 1px solid #e0e0e0;
+        line-height: 53px;
+        height: 53px;
+        display: none;
+    }
+    .overlay_menu .top_menu_fix .menu_body ul.list_row_one li span.txt {
+        margin-left: 15px;
+        font-size: 1.077rem;
+        color: #666;
+        font-family: proximanova-regular;
+    }
+    .overlay_menu .top_menu_fix .menu_body ul.list_row_two {
+        padding: 0 20px;
+        background-color: #ddd;
+    }
+    .overlay_menu .top_menu_fix .menu_body ul.list_row_two li {
+        border-bottom: 1px solid #cecece;
+        line-height: 53px;
+        height: 53px;
+    }
+    .overlay_menu .top_menu_fix .menu_body ul.list_row_two li span.txt {
+        margin-left: 15px;
+        font-size: 1.077rem;
+        color: #666;
+        font-family: proximanova-regular;
+    }
+    .overlay_menu .top_menu_fix footer {
+        background-color: #000;
+    }
+    .overlay_menu .top_menu_fix footer .foot_dow_app {
+        padding: 18px 25px;
+        border-bottom: 1px solid #434343;
+    }
+    .overlay_menu .top_menu_fix footer .foot_dow_app span.txt {
+        color: #fff;
+        font-size: 0.92857143em;
+        font-family: proximanova-regular;
+        margin-right: 20px;
+    }
+    .overlay_menu .top_menu_fix footer .foot_dow_app a {
+        margin-right: 24px;
+        vertical-align: sub;
+    }
+    .overlay_menu .top_menu_fix footer .soic_media {
+        padding: 12px 25px;
+    }
+    .overlay_menu .top_menu_fix footer .soic_media span.txt {
+        color: #666;
+        font-size: 0.78571429em;
+        font-family: proximanova-regular;
+    }
+    .overlay_menu .top_menu_fix footer .soic_media a {
+        margin-left: 15px;
+    }
+    .header_wrapper.home_wrapper {
+        padding: 0;
+    }
+    .header_wrapper .container .menu {
+        margin-top: 0;
+    }
+    .header_wrapper .container .hme_log {
+        margin: 10px 0 0 45px;
+        float: left;
+    }
+    ul.dropdown_links > .dropdown-item {
+        padding: 0 4px;
+    }
+}
+@media (max-width: 480px) {
+    .header_wrapper nav.top_nav > ul.dropdown_links li {
+        width: 49px;
+    }
+}
+@media (max-width: 360px) {
+    .header_wrapper nav.top_nav > ul.dropdown_links li {
+        width: 44px;
+    }
+}
+@media (max-width: 320px) {
+    .header_wrapper nav.top_nav > ul.dropdown_links {
+        padding: 0 2px;
+    }
+    .header_wrapper nav.top_nav > ul.dropdown_links li {
+        width: 40px;
+    }
+}
+/*! CSS Used fontfaces */
+@font-face {
+    font-family: proximanova-regular;
+    src: url(https://static.carworkz.com/front/fonts/proximanova_regular.eot);
+    src: url(https://static.carworkz.com/front/fonts/proximanova_regular.eot#iefix)
+            format('embedded-opentype'),
+        url(https://static.carworkz.com/front/fonts/proximanova_regular.woff2) format('woff2'),
+        url(https://static.carworkz.com/front/fonts/proximanova_regular.woff) format('woff'),
+        url(https://static.carworkz.com/front/fonts/proximanova_regular.ttf) format('truetype'),
+        url(https://static.carworkz.com/front/fonts/proximanova_regular.svg#proximanova-regular)
+            format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+/*! CSS Used from: https://static.carworkz.com/front/mincss/styles.min.css?v=61 */
+
+.dropbtn {
+    background-color: #4caf50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0a5961;
+    min-width: 197px;
+    right: -42px;
+
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 6px 45px;
+    text-decoration: none;
+    display: block;
+    /* padding-right: 75px !important;*/
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/*! CSS Used from: https://static.carworkz.com/front/mincss/styles.min.css?v=61 */
+a {
+    background-color: transparent;
+}
+a:active,
+a:hover {
+    outline: 0;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:after,
+:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+a:focus,
+a:hover {
+    color: #23527c;
+    text-decoration: underline;
+}
+a:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+.header_wrapper nav ul li {
+    display: inline-block;
+    margin-right: 25px;
+}
+.header_wrapper nav ul li:last-child {
+    margin-right: 0;
+}
+.header_wrapper nav ul li a {
+    color: #666;
+    font-size: 0.92857143em;
+    display: block;
+    font-family: proximanova-regular;
+}
+.header_wrapper nav ul li a span {
+    vertical-align: middle;
+}
+.header_wrapper .menu ul.dropdown_links li a {
+    line-height: 26px;
+}
+.header_wrapper .menu ul.dropdown_links li > ul.dropdown {
+    margin-top: 16px;
+    border: 1px solid #c4c4c4;
+    -webkit-box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.31);
+    -moz-box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.31);
+    box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.31);
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.header_wrapper .menu ul.dropdown_links li > ul.dropdown > li {
+    padding: 0;
+}
+.header_wrapper .menu ul.dropdown_links li > ul.dropdown > li a {
+    font-size: 0.92857143em;
+}
+.header_wrapper .menu ul.dropdown_links li.my_act_drpdwn .dropdown {
+    right: -11px;
+    width: 186px !important;
+}
+.header_wrapper .menu ul.dropdown_links li.my_act_drpdwn .dropdown:before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: 60%;
+    margin-left: 53px;
+    border-bottom: 5px solid #999;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+}
+.header_wrapper .menu ul.dropdown_links li.my_act_drpdwn .dropdown li {
+    background: url(https://static.carworkz.com/front/images/myAccount-menu-sprite.png) no-repeat
+        left center;
+    position: relative;
+}
+.header_wrapper .menu ul.dropdown_links li.my_act_drpdwn .dropdown li.sub-dropdown a {
+    padding-left: 35px !important;
+}
+.header_wrapper .menu ul.dropdown_links li.my_act_drpdwn .dropdown li.my-profile {
+    background-position: 4px 6px;
+}
+.header_wrapper .menu ul.dropdown_links li.my_act_drpdwn .dropdown li.my-apt {
+    background-position: 4px -80px;
+}
+.header_wrapper .menu ul.dropdown_links li.my_act_drpdwn .dropdown li.my-apt .my_appt {
+    background: #f89c00;
+    border-radius: 50%;
+    bottom: 7px;
+    color: #fff;
+    font-size: 0.71428571em;
+    height: 15px;
+    line-height: 15px;
+    position: absolute;
+    right: 4px;
+    text-align: center;
+    width: 15px;
+}
+.header_wrapper .menu ul.dropdown_links li.my_act_drpdwn .dropdown li.my-se {
+    background-position: 4px -136px;
+}
+.header_wrapper .menu ul.dropdown_links li.my_act_drpdwn .dropdown li.my-car {
+    background-position: 4px -179px;
+}
+.header_wrapper .menu ul.dropdown_links li.my_act_drpdwn .dropdown li.my-addr {
+    background-position: 4px -226px;
+}
+.header_wrapper .menu ul.dropdown_links li.my_act_drpdwn .dropdown li.my-rsa {
+    background-position: 4px -320px;
+}
+.header_wrapper .menu ul.dropdown_links li.my_act_drpdwn .dropdown li.logout {
+    background-position: 4px -273px;
+}
+.header_wrapper .menu ul.dropdown_links li.my_act_drpdwn .dropdown li:active,
+.header_wrapper .menu ul.dropdown_links li.my_act_drpdwn .dropdown li:focus,
+.header_wrapper .menu ul.dropdown_links li.my_act_drpdwn .dropdown li:hover {
+    background-color: #999;
+    color: #fff;
+}
+.header_wrapper .menu ul.dropdown_links li.my_act_drpdwn .dropdown li:active.my-profile,
+.header_wrapper .menu ul.dropdown_links li.my_act_drpdwn .dropdown li:focus.my-profile,
+.header_wrapper .menu ul.dropdown_links li.my_act_drpdwn .dropdown li:hover.my-profile {
+    background-position: 4px -23px;
+}
+.header_wrapper .menu ul.dropdown_links li.my_act_drpdwn .dropdown li:active.my-apt,
+.header_wrapper .menu ul.dropdown_links li.my_act_drpdwn .dropdown li:focus.my-apt,
+.header_wrapper .menu ul.dropdown_links li.my_act_drpdwn .dropdown li:hover.my-apt {
+    background-position: 4px -53px;
+}
+.header_wrapper .menu ul.dropdown_links li.my_act_drpdwn .dropdown li:active.my-se,
+.header_wrapper .menu ul.dropdown_links li.my_act_drpdwn .dropdown li:focus.my-se,
+.header_wrapper .menu ul.dropdown_links li.my_act_drpdwn .dropdown li:hover.my-se {
+    background-position: 4px -108px;
+}
+.header_wrapper .menu ul.dropdown_links li.my_act_drpdwn .dropdown li:active.my-car,
+.header_wrapper .menu ul.dropdown_links li.my_act_drpdwn .dropdown li:focus.my-car,
+.header_wrapper .menu ul.dropdown_links li.my_act_drpdwn .dropdown li:hover.my-car {
+    background-position: 4px -160px;
+}
+.header_wrapper .menu ul.dropdown_links li.my_act_drpdwn .dropdown li:active.my-addr,
+.header_wrapper .menu ul.dropdown_links li.my_act_drpdwn .dropdown li:focus.my-addr,
+.header_wrapper .menu ul.dropdown_links li.my_act_drpdwn .dropdown li:hover.my-addr {
+    background-position: 4px -202px;
+}
+.header_wrapper .menu ul.dropdown_links li.my_act_drpdwn .dropdown li:active.my-rsa,
+.header_wrapper .menu ul.dropdown_links li.my_act_drpdwn .dropdown li:focus.my-rsa,
+.header_wrapper .menu ul.dropdown_links li.my_act_drpdwn .dropdown li:hover.my-rsa {
+    background-position: 4px -297px;
+}
+.header_wrapper .menu ul.dropdown_links li.my_act_drpdwn .dropdown li:active.logout,
+.header_wrapper .menu ul.dropdown_links li.my_act_drpdwn .dropdown li:focus.logout,
+.header_wrapper .menu ul.dropdown_links li.my_act_drpdwn .dropdown li:hover.logout {
+    background-position: 4px -249px;
+}
+.header_wrapper .menu ul.dropdown_links li.my_act_drpdwn .dropdown li:active a,
+.header_wrapper .menu ul.dropdown_links li.my_act_drpdwn .dropdown li:focus a,
+.header_wrapper .menu ul.dropdown_links li.my_act_drpdwn .dropdown li:hover a {
+    color: #fff;
+}
+.header_wrapper .top_nav .dropdown_links .dropdown li.sub-dropdown {
+    text-align: left;
+}
+@media screen and (max-width: 768px) {
+    .header_wrapper .menu ul.dropdown_links li.my_act_drpdwn .dropdown {
+        right: -11px;
+        margin-top: 20px;
+    }
+    .header_wrapper .menu ul.dropdown_links li.my_act_drpdwn .dropdown:before {
+        left: 52%;
+    }
+}
+@media (max-width: 320px) {
+    .header_wrapper .menu ul.dropdown_links li.my_act_drpdwn .dropdown {
+        right: -16px;
+    }
+}
+.sprite-icons-user1 {
+    background-image: url(https://static.carworkz.com/front/images/sprite-icons-sd6fc36ae2a.png);
+    background-repeat: no-repeat;
+}
+.sprite-icons-user1 {
+    background-position: -197px 0;
+    height: 13px;
+    width: 13px;
+}
+span[class^='sprite-icons'] {
+    display: inline-block;
+}
+a:active,
+a:focus,
+a:hover {
+    outline: 0;
+    text-decoration: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+:focus {
+    outline: 0;
+}
+ul.dropdown_links > .dropdown-item {
+    margin-right: 30px;
+    position: relative;
+}
+ul.dropdown_links > .dropdown-item > a {
+    line-height: 20px;
+}
+ul.dropdown_links > .dropdown-item > a > span {
+    vertical-align: middle;
+    margin-right: 2px;
+}
+ul.dropdown_links > .dropdown-item:after {
+    content: '';
+    position: absolute;
+    right: -14px;
+    top: 50%;
+    margin-top: -1px;
+    width: 0;
+    height: 0;
+}
+ul.dropdown_links li {
+    transition: all 0.2s ease;
+    display: block;
+    float: left;
+    position: relative;
+}
+ul.dropdown_links li a {
+    font-size: 0.85714286em;
+    color: #666;
+    display: block;
+}
+ul.dropdown_links li a:hover {
+    text-decoration: none;
+}
+ul.dropdown_links li.arrow:after {
+    position: absolute;
+    content: '';
+    right: -15px;
+    top: 50%;
+    margin-top: -4px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #000;
+}
+ul.dropdown_links li:hover {
+    cursor: pointer;
+}
+ul.dropdown_links li:hover > ul {
+    visibility: visible;
+    -khtml-opacity: 1;
+    -moz-opacity: 1;
+    opacity: 1;
+    top: 15px;
+}
+ul.dropdown_links li:active > ul {
+    -webkit-transition: opacity 0.3s ease-in;
+}
+ul.dropdown_links li > ul {
+    background: #fff;
+    visibility: hidden;
+    -khtml-opacity: 0;
+    -moz-opacity: 0;
+    opacity: 0;
+    top: 15px;
+    float: left;
+    min-width: 120px;
+    position: absolute;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    margin-top: 3px;
+    z-index: 9;
+}
+ul.dropdown_links li > ul.dropdown {
+    border-radius: 0 0 3px 3px;
+    -moz-border-radius: 0 0 3px 3px;
+    -webkit-border-radius: 0 0 3px 3px;
+    border: 1px solid #c4c4c4;
+}
+ul.dropdown_links li > ul.dropdown:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: -4px;
+    margin-left: -3px;
+    width: 0;
+    height: 0;
+}
+ul.dropdown_links li > ul > li {
+    clear: both;
+    padding: 10px;
+    width: 100%;
+}
+ul.dropdown_links li > ul > li:first-child {
+    border-top: none;
+}
+ul.dropdown_links li > ul > li:active,
+ul.dropdown_links li > ul > li:focus,
+ul.dropdown_links li > ul > li:hover {
+    background: #999;
+    color: #fff;
+}
+ul.dropdown_links li > ul > li:active a,
+ul.dropdown_links li > ul > li:focus a,
+ul.dropdown_links li > ul > li:hover a {
+    color: #fff;
+}
+ul.dropdown_links li > ul > li > a {
+    color: #666;
+    font-size: 14px;
+}
+.sub_header_wrapper .menu ul.dropdown_links li.dropdown-item a {
+    color: #666;
+    font-family: proximanova-regular;
+}
+ul.dropdown_links > .dropdown-item {
+    margin-right: 15px;
+}
+/*! CSS Used from: https://static.carworkz.com/front/mincss/responsive.min.css?v=61 */
+@media (max-width: 1024px) {
+    .header_wrapper nav.top_nav ul {
+        text-align: center;
+    }
+    .header_wrapper nav.top_nav ul li {
+        border-left: 1px solid #e8e8e8;
+        margin-right: inherit;
+        display: inline-block;
+        float: left;
+        width: 33.33%;
+    }
+    .header_wrapper nav.top_nav ul li a {
+        padding: 14px 0;
+        font-size: 0.78571429em;
+        height: 42px;
+    }
+    .header_wrapper nav.top_nav ul li a span {
+        display: block;
+        margin: 0 auto 5px;
+    }
+    .header_wrapper nav.top_nav > ul.dropdown_links li {
+        width: 65px;
+    }
+    .header_wrapper .container .menu ul.dropdown_links li:hover ul {
+        opacity: 0;
+        visibility: hidden;
+    }
+    .header_wrapper .container .menu ul.dropdown_links li.arrow:after {
+        border: none;
+    }
+    .header_wrapper .container .menu ul.dropdown_links li.my_act_drpdwn ul {
+        right: 0;
+    }
+    .header_wrapper .container .menu ul.dropdown_links li ul {
+        right: -70px;
+        top: 13px;
+    }
+    .header_wrapper .container .menu ul.dropdown_links li ul li {
+        border: none;
+    }
+    .header_wrapper .container .menu ul.dropdown_links li ul li:active,
+    .header_wrapper .container .menu ul.dropdown_links li ul li:focus {
+        background: #999;
+    }
+    .header_wrapper .container .menu ul.dropdown_links > .dropdown-item {
+        margin-right: 0;
+    }
+    .header_wrapper .container .menu ul.dropdown_links > .dropdown-item:last-child {
+        margin-right: 0;
+    }
+}
+@media (max-width: 992px) {
+    .header_wrapper .container .menu ul.dropdown_links li:hover ul {
+        opacity: 0;
+        visibility: hidden;
+    }
+    .header_wrapper .container .menu ul.dropdown_links li.arrow:after {
+        border: none;
+    }
+    .header_wrapper .container .menu ul.dropdown_links li.my_act_drpdwn ul {
+        right: 0;
+    }
+    .header_wrapper .container .menu ul.dropdown_links li ul {
+        right: -70px;
+        top: 13px;
+    }
+    .header_wrapper .container .menu ul.dropdown_links li ul li {
+        border: none;
+    }
+    .header_wrapper .container .menu ul.dropdown_links li ul li:active,
+    .header_wrapper .container .menu ul.dropdown_links li ul li:focus {
+        background: #999;
+    }
+    .header_wrapper .container .menu ul.dropdown_links > .dropdown-item {
+        margin-right: 0;
+    }
+    .header_wrapper .container .menu ul.dropdown_links > .dropdown-item:last-child {
+        margin-right: 0;
+    }
+    .header_wrapper .container .menu ul.dropdown_links > .dropdown-item > a span {
+        display: none;
+    }
+    .header_wrapper
+        .container
+        .menu
+        ul.dropdown_links
+        > .dropdown-item
+        > a
+        span[class^='sprite-icons'] {
+        display: block;
+    }
+}
+@media (max-width: 768px) {
+    .header_wrapper nav.top_nav > ul.dropdown_links li > .dropdown > li {
+        width: 100%;
+    }
+    .header_wrapper nav.top_nav > ul.dropdown_links li > .dropdown > li a {
+        padding: 0;
+        height: inherit;
+        line-height: 26px;
+    }
+    ul.dropdown_links > .dropdown-item {
+        padding: 0 4px;
+    }
+}
+@media (max-width: 480px) {
+    .header_wrapper nav.top_nav > ul.dropdown_links li {
+        width: 49px;
+    }
+    .header_wrapper .menu ul.dropdown_links li.my_act_drpdwn .dropdown:before {
+        margin-left: 60px;
+    }
+}
+@media (max-width: 360px) {
+    .header_wrapper nav.top_nav > ul.dropdown_links li {
+        width: 44px;
+    }
+}
+@media (max-width: 320px) {
+    .header_wrapper nav.top_nav > ul.dropdown_links li {
+        width: 40px;
+    }
+}
+/*! CSS Used fontfaces */
+@font-face {
+    font-family: proximanova-regular;
+    src: url(https://static.carworkz.com/front/fonts/proximanova_regular.eot);
+    src: url(https://static.carworkz.com/front/fonts/proximanova_regular.eot#iefix)
+            format('embedded-opentype'),
+        url(https://static.carworkz.com/front/fonts/proximanova_regular.woff2) format('woff2'),
+        url(https://static.carworkz.com/front/fonts/proximanova_regular.woff) format('woff'),
+        url(https://static.carworkz.com/front/fonts/proximanova_regular.ttf) format('truetype'),
+        url(https://static.carworkz.com/front/fonts/proximanova_regular.svg#proximanova-regular)
+            format('svg');
+    font-weight: 300;
+    font-style: normal;
+}

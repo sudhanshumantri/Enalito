@@ -1,0 +1,21 @@
+h1{
+    font-weight: 600;
+    font-size: 40px;
+    color: #404040;
+}h3{
+    font-weight: 500;
+    font-size: 22px;
+    color: #404040;
+    line-height: 26px;
+}
+.container{
+    padding: 20px;
+    margin-top: 20px;
+}
+.paraghraph-heading{
+    font-weight: 400;
+    font-size: 18px;
+    color: #404040;
+    /* font-family: 'Roboto'; */
+    line-height: 21.09px;
+}
