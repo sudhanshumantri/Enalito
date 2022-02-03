@@ -1,0 +1,14 @@
+.color-indicator-container{
+    /* width: 36px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.color-indicator{
+    border:5px solid;
+    /* border-radius: 5px; */
+    width: 38px;
+    margin: auto;
+    margin-top: 7px;
+
+}

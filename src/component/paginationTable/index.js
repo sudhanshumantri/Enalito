@@ -21,7 +21,7 @@ import Switch from '@mui/material/Switch';
 import DeleteIcon from '@mui/icons-material/Delete';
 import FilterListIcon from '@mui/icons-material/FilterList';
 import { visuallyHidden } from '@mui/utils';
-
+import ColoredLabelStatus from '../common/labelColorStatus'
 function createData(name, calories, fat, carbs, protein) {
     return {
         name,
@@ -33,19 +33,19 @@ function createData(name, calories, fat, carbs, protein) {
 }
 
 const rows = [
-    createData('Cupcake', 305, 3.7, 67, 4.3),
-    createData('Donut', 452, 25.0, 51, 4.9),
-    createData('Eclair', 262, 16.0, 24, 6.0),
-    createData('Frozen yoghurt', 159, 6.0, 24, 4.0),
-    createData('Gingerbread', 356, 16.0, 49, 3.9),
-    createData('Honeycomb', 408, 3.2, 87, 6.5),
-    createData('Ice cream sandwich', 237, 9.0, 37, 4.3),
-    createData('Jelly Bean', 375, 0.0, 94, 0.0),
-    createData('KitKat', 518, 26.0, 65, 7.0),
-    createData('Lollipop', 392, 0.2, 98, 0.0),
-    createData('Marshmallow', 318, 0, 81, 2.0),
-    createData('Nougat', 360, 19.0, 9, 37.0),
-    createData('Oreo', 437, 18.0, 63, 4.0),
+    createData('danejoe12@gmail.com', 5, 3, 2, 1),
+    createData('joeburrito@outlook.com', 2, 5, 4, 1),
+    createData('jennyshrivastava@gmail.co', 3, 2, 1, 4),
+    createData('Frozen@hotmail', 5, 4, 3, 2),
+    createData('frozenyogurt@hotmail.com', 4, 1, 5, 3),
+    createData('hsgyej@outlook.com', 2, 1, 3, 5),
+    // createData('Ice cream sandwich', 237, 9.0, 37, 4.3),
+    // createData('Jelly Bean', 375, 0.0, 94, 0.0),
+    // createData('KitKat', 518, 26.0, 65, 7.0),
+    // createData('Lollipop', 392, 0.2, 98, 0.0),
+    // createData('Marshmallow', 318, 0, 81, 2.0),
+    // createData('Nougat', 360, 19.0, 9, 37.0),
+    // createData('Oreo', 437, 18.0, 63, 4.0),
 ];
 
 function descendingComparator(a, b, orderBy) {
@@ -150,14 +150,14 @@ function EnhancedTableHead(props) {
                             onClick={createSortHandler(headCell.id)}
                             sx={{
                                 color: '#757575',
-                                fontSize:12,
-                                fontWeight:700
-                              }}
+                                fontSize: 12,
+                                fontWeight: 700
+                            }}
                         >
                             {headCell.label}
                             {orderBy === headCell.id ? (
                                 <Box component="span" sx={visuallyHidden}
-                                
+
                                 >
                                     {order === 'desc' ? 'sorted descending' : 'sorted ascending'}
                                 </Box>
@@ -279,18 +279,33 @@ export default function EnhancedTable() {
                                                 id={labelId}
                                                 scope="row"
                                                 align='center'
-                                                
+
                                             >
                                                 {row.name}
                                             </TableCell>
                                             {/* <TableCell align="right">{row.name}</TableCell> */}
-                                            <TableCell align="center">{row.calories}</TableCell>
-                                            <TableCell align="center">{row.fat}</TableCell>
-                                            <TableCell align="center">{row.carbs}</TableCell>
-                                            <TableCell align="center">{row.protein}</TableCell>
-                                            <TableCell align="center">{row.calories}</TableCell>
-                                            <TableCell align="center">{row.calories}</TableCell>
-                                            <TableCell align="center">{row.calories}</TableCell>
+                                            <TableCell align="center">
+                                                <ColoredLabelStatus value={row.calories} />
+                                            </TableCell>
+                                            <TableCell align="center">
+                                               
+                                                <ColoredLabelStatus value={row.fat} />
+                                            </TableCell>
+                                            <TableCell align="center">
+                                                <ColoredLabelStatus value={row.carbs} />
+                                            </TableCell>
+                                            <TableCell align="center">
+                                                <ColoredLabelStatus value={row.protein} />
+                                            </TableCell>
+                                            <TableCell align="center">
+                                                <ColoredLabelStatus value={row.carbs} />
+                                            </TableCell>
+                                            <TableCell align="center">
+                                                <ColoredLabelStatus value={row.calories} />
+                                            </TableCell>
+                                            <TableCell align="center">
+                                                <ColoredLabelStatus value={row.calories} />
+                                            </TableCell>
                                         </TableRow>
                                     );
                                 })}
