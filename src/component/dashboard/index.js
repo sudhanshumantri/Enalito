@@ -2,6 +2,7 @@ import React from 'react';
 import './style.css';
 import PaginationTable from '../paginationTable'
 import CustomGrid from '../grid';
+import img from '../../imgs/Vector.png'
 
 
 
@@ -181,12 +182,16 @@ export default class Dashboard extends React.Component {
         return (
             <div className='container'>
                 <h1>All Customers: 24385</h1>
+                <h3>Store Overview</h3>
+                <img src={img} alt="funnelimg" style={{paddingLeft:'165px' , marginTop:"-95px"}}/>
                 <div>
                     <CustomGrid count={2} gridInfo={gridoneData} />
                     <CustomGrid count={2} gridInfo={gridTwoData} />
                 </div>
                 <div className='dashboard-table-holder'>
                     <p className='paraghraph-heading'>View each user’s behavior across our  Key Performance Indicators (KPIs)</p>
+                    <img src={img} alt="funnelimg" style={{paddingLeft:'600px' , marginTop:"-80px"}}/>
+                    <p className='paragraph-heading'><strong>Purchase Behavior</strong> | All customers</p>
                     <PaginationTable />
                 </div>
             </div>
