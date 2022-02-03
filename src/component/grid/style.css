@@ -1,0 +1,11 @@
+@media only screen and (max-width: 1200px) {
+    .grid-item-container {
+      max-height: unset !important;
+    }
+    .grid-row-container{
+        flex-direction: column !important;
+    }
+    .grid-child-container{
+        max-width: unset !important;
+    }
+  }

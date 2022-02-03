@@ -25,15 +25,15 @@ export default class CustomGrid extends React.Component {
         let { count, gridInfo } = this.props;
         return (
             <Box sx={{ flexGrow: 1 }}>
-                <Grid container spacing={gridInfo.length}>
+                <Grid container className='grid-row-container' spacing={gridInfo.length}>
                     {gridInfo.map((value, index) => {
                         return (
-                            <Grid item xs={value.width}>
+                            <Grid item xs={value.width} className='grid-child-container' key={index}>
                                 <h3>{value.title}</h3>
-                                <Item >
-                                    {value.data.map((labelInfo, index) => {
+                                <Item className='grid-item-container'>
+                                    {value.data.map((labelInfo, j) => {
                                         return (
-                                            <DashedLabelData labelInfo={labelInfo} />
+                                            <DashedLabelData labelInfo={labelInfo} key ={j}/>
                                         )
                                     })}
                                 </Item>

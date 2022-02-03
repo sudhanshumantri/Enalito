@@ -10,15 +10,12 @@ let colorCodeMapping = {
 }
 
 export default class StatusLabelData extends React.Component {
-    constructor(props) {
-        super(props);
-    }
     render() {
-        let { value, color } = this.props;
+        let { value } = this.props;
         return (
             <div>
                 <div>{value}</div>
-                <div className='color-indicator' style={{ 'border-color': colorCodeMapping[value] }}></div>
+                <div className='color-indicator' style={{ 'borderColor': colorCodeMapping[value] }}></div>
             </div>
         )
     }
