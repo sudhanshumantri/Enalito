@@ -176,10 +176,72 @@ export default class Dashboard extends React.Component {
             <div className='container'>
                 <h1>All Customers: 24385</h1>
                 <h3>Store Overview <FilterAltOutlined color="white" /></h3>
+                <div className='dashboardGridContainer'>
+                    <div className='gridContainerone'>
+                        <h3>{purchaseBehaviourData.title}</h3>
+                        <div className="gridoneitemlist">
+                            {purchaseBehaviourData.data.map(item=>{
+                                return (
+                                    <>
+                                    <div className='Labels'>
+                                        <h5>{item.label}</h5>
+
+                                    </div>
+                                    
+                                    <div>
+                                        <h6>{item.dataRows.map(i=>{
+                                            return (
+                                                <div className="subLabels">
+                                                    <h6>{i.title}</h6>
+                                                </div>
+                                            )
+                                        })}</h6>
+                                    </div>
+                                    </>
+                                )
+                            })}
+                        </div>
+                    </div>
+                    <div className = "gridContainertwo">
+                          <h3>{browserBehaviourData.title}</h3>
+                        <div className="gridtwoitemlist">
+                            {browserBehaviourData.data.map(item=>{
+                                return (
+                                    <>
+                                    <div className='Labels'>
+                                        <h5>{item.label}</h5>
+                                        <div className='sub'>
+                                            <h6>{item.subLabel}</h6>
+                                        </div>
+                                    
+                                    </div>
+                                    
+
+                                    
+                                    <div>
+                                        <h6>{item.dataRows.map(i=>{
+                                            return (
+                                                <div className="subLabels">
+                                                    <h6>{i.title}</h6>
+                                                    
+                                                </div>
+                                            )
+                                        })}</h6>
+                                    </div>
+
+                                    </>
+                                )
+                            })}
+                        </div>
+
+                    </div>
+                </div>
+
                 <div>
                     <CustomGrid count={2} gridInfo={gridoneData} />
                     <CustomGrid count={2} gridInfo={gridTwoData} />
                 </div>
+
                 <div className='dashboard-table-holder'>
                     <p className='paraghraph-heading'>View each user’s behavior across our  Key Performance Indicators (KPIs) <FilterAltOutlined/></p>
                     <p className='paragraph-heading'><strong>Purchase Behavior</strong> | All customers</p>
