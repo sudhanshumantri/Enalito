@@ -3,6 +3,7 @@ import './style.css';
 import {FilterAltOutlined } from '@mui/icons-material/';
 import PaginationTable from '../paginationTable'
 import CustomGrid from '../grid';
+import  Grid  from '@mui/material/Grid';
 import img from '../../imgs/Vector.png'
 let purchaseBehaviourData = {
     title: 'Purchase Behavior',
@@ -183,7 +184,7 @@ export default class Dashboard extends React.Component {
                             {purchaseBehaviourData.data.map(item=>{
                                 return (
                                     <>
-                                    <div className='Labels'>
+                                    <div className='Labels' key={item.index}>
                                         <h5>{item.label}</h5>
 
                                     </div>
@@ -191,7 +192,7 @@ export default class Dashboard extends React.Component {
                                     <div>
                                         <h6>{item.dataRows.map(i=>{
                                             return (
-                                                <div className="subLabels">
+                                                <div className="subLabels" key={i.index}>
                                                     <h6>{i.title}</h6>
                                                 </div>
                                             )
@@ -208,20 +209,27 @@ export default class Dashboard extends React.Component {
                             {browserBehaviourData.data.map(item=>{
                                 return (
                                     <>
-                                    <div className='Labels'>
-                                        <h5>{item.label}</h5>
-                                        <div className='sub'>
-                                            <h6>{item.subLabel}</h6>
+                                    <Grid container>
+                                    <Grid item>
+                                        <div className='Labels' key={item.index}>
+                                            <h5 >{item.label}</h5>
+                                        
+                                                <Grid item>
+                                                    <div className='sub'>
+                                                         <h6 >{item.subLabel}</h6>
+                                                    </div>
+                                                </Grid>
                                         </div>
-                                    
-                                    </div>
+
+                                    </Grid>
+                                    </Grid>
                                     
 
                                     
                                     <div>
                                         <h6>{item.dataRows.map(i=>{
                                             return (
-                                                <div className="subLabels">
+                                                <div className="subLabels" key={i.index}>
                                                     <h6>{i.title}</h6>
                                                     
                                                 </div>
