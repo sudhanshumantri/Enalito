@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+/* .container{
+    display: flex;
+    flex-direction: column;
+} */
+
+.mainHeader{
+    display: flex;
+    flex-direction: row;
+    padding-left: 55px;
+    padding: 20px;
+    margin:10px
+    
+}
+.mainHeader h3{
+    font-weight: bold;
+}
+
+.mainHeader .mainHeaderBtn{
+    margin-left: '30px';
+    max-height: '25px';
+    /* color: #0E2C4B; */
+    background-color: #0E2C4B;
+    /* padding: '6px 12px'; */
+    padding-left: '525px';
+    
+
+}
+.typography{
+    color:"#263238"
+}
+.mainHeader .mainHeaderBtn :active{
+     /* background-color: #0E2C4B; */
+     box-shadow: none;
+}
+.segmentCards{
+    display: flex;
+    flex-direction: row;
+    width: 180px;
+    height: 150px;
+    
+
+}
+/* .cardsContainer{
+    display: flex;
+    flex-direction: 'row';
+    align-items: stretch;
+    
+} */
+
+
+

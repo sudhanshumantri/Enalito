@@ -4,6 +4,7 @@ import { Route, Routes, BrowserRouter } from 'react-router-dom';
 import Header from '../../component/header';
 import Dashboard from '../../component/dashboard/';
 import Drawer from '../../component/drawer';
+import Segments from '../../component/Segments/Segments'
 
 class Root extends Component {
     render() {
@@ -16,6 +17,9 @@ class Root extends Component {
                 <BrowserRouter>
                     <Routes>
                         <Route  exact path="/" element={<Dashboard/>} />
+                    </Routes>
+                    <Routes>
+                        <Route exact path="/segments" element={<Segments/>}/>
                     </Routes>
                 </BrowserRouter>
             </div>

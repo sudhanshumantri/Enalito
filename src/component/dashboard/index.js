@@ -209,8 +209,8 @@ export default class Dashboard extends React.Component {
                             {browserBehaviourData.data.map(item=>{
                                 return (
                                     <>
-                                    <Grid container>
-                                    <Grid item>
+                                    <Grid container  >
+                                    <Grid item xs={12}>
                                         <div className='Labels' key={item.index}>
                                             <h5 >{item.label}</h5>
                                         
